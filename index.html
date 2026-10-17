@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hikmet Emre Gültekin - Büyük Veri Analistliği öğrencisi. Veri analizi, makine öğrenmesi ve veri görselleştirme projeleri.">
+  <meta name="keywords" content="Hikmet Emre Gültekin, Büyük Veri Analistliği, Veri Analizi, Makine Öğrenmesi, Python, SQL, Excel, Scikit-learn, Veri Hikayeleştirme">
+  <meta name="author" content="Hikmet Emre Gültekin">
+  <title>Hikmet Emre Gültekin | Büyük Veri Analistliği</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a class="logo" href="#home" aria-label="Ana sayfa">
+      HE<span>G.</span>
+    </a>
+
+    <button class="menu-btn" aria-label="Menüyü aç/kapat" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav>
+      <a href="#home" data-i18n="nav_home">Ana Sayfa</a>
+      <a href="#about" data-i18n="nav_about">Hakkımda</a>
+      <a href="#skills" data-i18n="nav_skills">Yetenekler</a>
+      <a href="#projects" data-i18n="nav_projects">Projeler</a>
+      <a href="#contact" data-i18n="nav_contact">İletişim</a>
+    </nav>
+
+    <!-- DİL SEÇİCİ -->
+    <div class="lang-switch">
+      <button class="lang-btn active" data-lang="tr">TR</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="de">DE</button>
+      <button class="lang-btn" data-lang="es">ES</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO / ANA SAYFA -->
+    <section id="home" class="hero section">
+      <div class="hero-text">
+        <div class="badge">
+          <span></span>
+          <span data-i18n="hero_badge">Veri & Teknoloji</span>
+        </div>
+        <p class="eyebrow" data-i18n="hero_eyebrow">MERHABA, BEN</p>
+        <h1>
+          Hikmet Emre<br>
+          <strong>Gültekin</strong>
+        </h1>
+        <p class="hero-role" data-i18n="hero_role">
+          Büyük Veri Analistliği Öğrencisi
+        </p>
+        <p class="hero-desc" data-i18n="hero_desc">
+          Veri analizi, makine öğrenmesi ve veri görselleştirme alanlarında projeler geliştiriyorum. Ham veriyi analiz ederek anlamlı sonuçlara ve geleceğe yönelik tahminlere dönüştürüyorum.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects" data-i18n="hero_btn_projects">Projelerimi Gör →</a>
+          <a class="btn secondary" href="#contact" data-i18n="hero_btn_contact">İletişime Geç</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="card-glow"></div>
+        <div class="code-window">
+          <div class="window-top">
+            <i></i><i></i><i></i>
+            <span>data_analysis.py</span>
+          </div>
+          <pre><code><span class="blue">focus</span> = <span class="red">"Big Data & Machine Learning"</span>
+<span class="blue">mission</span> = <span class="red">"Raw Data ➔ Analysis ➔ Impact"</span>
+<span class="blue">output</span> = <span class="red">"Predictive Insights & Intelligence"</span></code></pre>
+        </div>
+        
+        <div class="floating-stat stat-one">
+          <b>Manisa CBÜ</b>
+        </div>
+        <div class="floating-stat stat-two">
+          <b data-i18n="hero_stat_role">Büyük Veri Analistliği</b>
+        </div>
+      </div>
+    </section>
+
+    <!-- 01 — HAKKIMDA -->
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="about_eyebrow">01 — HAKKIMDA</p>
+        <h2 data-i18n="about_title">Veriyi anlayıp<br><span>sonuca</span> dönüştürüyorum.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p data-i18n="about_p1">
+            Manisa Celal Bayar Üniversitesi Büyük Veri Analistliği öğrencisiyim. Veriyi yalnızca tablolardaki sayılardan ibaret görmüyor; arkasındaki örüntüleri, trendleri ve karar mekanizmalarını ortaya çıkaran analitik çözümler üretiyorum.
+          </p>
+          <p data-i18n="about_p2">
+            Python, SQL ve Scikit-learn ekosisteminde keşifsel veri analizi (EDA), zaman serisi tahminleme ve sınıflandırma modelleri geliştiriyorum. Modellerin salt doğruluğundan ziyade, Klinik Duyarlılık (Recall) ve Açıklanabilir Yapay Zekâ (XAI) prensiplerine odaklanıyorum.
+          </p>
+          <p data-i18n="about_p3">
+            Analiz çıktılarını kod bloklarında bırakmayıp; interaktif web arayüzleri, güvenli veritabanı altyapıları ve veri hikayeleştirme ile karar vericilerin doğrudan anlayabileceği dinamik ürünlere dönüştürüyorum.
+          </p>
+        </div>
+
+        <div class="about-facts">
+          <div>
+            <span data-i18n="fact_edu_title">Eğitim</span>
+            <b data-i18n="fact_edu_val">Büyük Veri Analistliği</b>
+          </div>
+          <div>
+            <span data-i18n="fact_uni_title">Üniversite</span>
+            <b data-i18n="fact_uni_val">Manisa Celal Bayar Üniversitesi</b>
+          </div>
+          <div>
+            <span data-i18n="fact_focus_title">Odak</span>
+            <b data-i18n="fact_focus_val">Veri Analitiği & ML</b>
+          </div>
+          <div>
+            <span data-i18n="fact_loc_title">Konum</span>
+            <b data-i18n="fact_loc_val">Manisa, Türkiye</b>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 — YETENEKLER -->
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="skills_eyebrow">02 — YETENEKLER</p>
+        <h2 data-i18n="skills_title">Üzerinde <span>çalıştığım</span> teknolojiler.</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">PY</div>
+          <h3>Python</h3>
+          <p data-i18n="skill_py_desc">Pandas, NumPy, Matplotlib, Seaborn ve Scikit-learn ile veri analitiği.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">ML</div>
+          <h3 data-i18n="skill_ml_title">Makine Öğrenmesi</h3>
+          <p data-i18n="skill_ml_desc">Gradient Boosting, Random Forest, K-Means, PCA ve regresyon analizleri.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">C#</div>
+           <h3 data-i18n="skill_cs_title">C#</h3>
+           <p data-i18n="skill_cs_desc">Temel programlama, algoritmik düşünme ve nesne yönelimli mantık (OOP).</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">SQL</div>
+          <h3 data-i18n="skill_sql_title">SQL & Veritabanı</h3>
+          <p data-i18n="skill_sql_desc">İlişkisel veritabanı mimarisi, sorgular ve PostgreSQL altyapısı.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">XL</div>
+          <h3>Microsoft Excel</h3>
+          <p data-i18n="skill_xl_desc">İleri düzey veri temizleme, özet tablolar, formüller ve raporlama.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">WEB</div>
+          <h3 data-i18n="skill_web_title">Web & Arayüz</h3>
+          <p data-i18n="skill_web_desc">Next.js, Tailwind CSS, JavaScript ve modern arayüzlerle dağıtım.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 — PROJELER -->
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="projects_eyebrow">03 — PROJELER</p>
+        <h2 data-i18n="projects_title">Veriyi <span>gerçek problemlere</span> uyguluyorum.</h2>
+      </div>
+
+      <div class="projects-grid">
+        
+        <!-- PROJE 01 -->
+        <article class="project">
+          <div class="project-number">01</div>
+          <div class="project-tag">PYTHON • SCIKIT-LEARN • ML</div>
+          <h3 data-i18n="p1_title">Manisa Zeytin Üretimi ve 2027 Tahmini</h3>
+          <p data-i18n="p1_desc">
+            Manisa'nın 18 ilçesine ait 44 yıllık üretim verisiyle var/yok yılı döngüleri, PCA ile K-Means kümeleme ve regresyonla 2027 rekolte tahmini.
+          </p>
+          <div class="project-info">
+            <span data-i18n="p1_tag1">📊 18 İlçe Analizi</span>
+            <span data-i18n="p1_tag2">🤖 K-Means & PCA</span>
+            <span data-i18n="p1_tag3">📈 Regresyon Modeli</span>
+          </div>
+          <div class="techs">
+            <span>Python</span>
+            <span>Scikit-Learn</span>
+            <span>Seaborn</span>
+          </div>
+          <div class="project-btns">
+            <a href="https://github.com/HikmetEmre45/Manisa-2027-yili-zeytin-uretimi-ve-tahminlemesi" target="_blank" rel="noopener noreferrer" class="btn secondary" data-i18n="btn_github_inspect">
+              GitHub'da İncele →
+            </a>
+          </div>
+        </article>
+
+        <!-- PROJE 02 -->
+        <article class="project">
+          <div class="project-number">02</div>
+          <div class="project-tag">DATA STORYTELLING • INTERACTIVE • WEB</div>
+          <h3 data-i18n="p2_title">Uyku Borcu Analizi ve Veri Hikayesi</h3>
+          <p data-i18n="p2_desc">
+            Bireylerin uyku süreleri, kronik uyku borcu birikimi ve bunun günlük performans üzerindeki etkilerini anlatan interaktif web tabanlı veri hikayesi.
+          </p>
+          <div class="project-info">
+            <span data-i18n="p2_tag1">🌙 Uyku Borcu Modeli</span>
+            <span data-i18n="p2_tag2">📊 İnteraktif Grafikler</span>
+            <span data-i18n="p2_tag3">💡 Veri Hikayesi</span>
+          </div>
+          <div class="techs">
+            <span>JavaScript</span>
+            <span>Data Storytelling</span>
+            <span>HTML5/CSS3</span>
+          </div>
+          <div class="project-btns">
+            <a href="https://hikmetemre45.github.io/sleep-debt-analysis-/" target="_blank" rel="noopener noreferrer" class="btn primary" data-i18n="btn_live_demo">
+              Canlı Projeyi Gör ↗
+            </a>
+            <a href="https://github.com/HikmetEmre45/sleep-debt-analysis-" target="_blank" rel="noopener noreferrer" class="btn secondary">
+              GitHub →
+            </a>
+          </div>
+        </article>
+
+        <!-- PROJE 03 -->
+        <article class="project">
+          <div class="project-number">03</div>
+          <div class="project-tag">HEALTHCARE AI • GRADIENT BOOSTING • CDSS</div>
+          <h3 data-i18n="p3_title">Sağlıkta Erken Teşhis için ML Tanı Sistemi</h3>
+          <p data-i18n="p3_desc">
+            Pima Indians veri seti ile Tip 2 diyabet riskini %88.31 doğruluk ve %83.33 klinik duyarlılıkla (Recall) öngören Açıklanabilir Yapay Zekâ (XAI) karar destek modeli.
+          </p>
+          <div class="project-info">
+            <span data-i18n="p3_tag1">🩺 %88.31 Doğruluk</span>
+            <span data-i18n="p3_tag2">⚡ %83.33 Recall</span>
+            <span>📈 0.96 AUC</span>
+          </div>
+          <div class="techs">
+            <span>Gradient Boosting</span>
+            <span>Random Forest</span>
+            <span>Scikit-Learn</span>
+          </div>
+          <div class="project-btns">
+            <a href="https://github.com/HikmetEmre45/Pima-Diabetes-Prediction" target="_blank" rel="noopener noreferrer" class="btn secondary" data-i18n="btn_github_inspect">
+              GitHub'da İncele →
+            </a>
+          </div>
+        </article>
+
+        <!-- PROJE 04 -->
+        <article class="project">
+          <div class="project-number">04</div>
+          <div class="project-tag">NEXT.JS • POSTGRESQL • CYBER SECURITY</div>
+          <h3 data-i18n="p4_title">Portfolyo & Yönetim Paneli Sistemi</h3>
+          <p data-i18n="p4_desc">
+            Next.js App Router, Neon PostgreSQL veritabanı, güvenli JWT admin paneli, hız sınırı (rate limit) ve KVKK md. 9 aydınlatma modülü.
+          </p>
+          <div class="project-info">
+            <span data-i18n="p4_tag1">🛡️ Admin Paneli</span>
+            <span>🐘 PostgreSQL</span>
+            <span data-i18n="p4_tag3">⚖️ KVKK Uyumlu</span>
+          </div>
+          <div class="techs">
+            <span>Next.js</span>
+            <span>PostgreSQL</span>
+            <span>Tailwind CSS</span>
+          </div>
+          <div class="project-btns">
+            <a href="https://portfolyo-2516016024-dlce.vercel.app" target="_blank" rel="noopener noreferrer" class="btn primary" data-i18n="btn_live_demo">
+              Canlı Projeyi Gör ↗
+            </a>
+            <a href="https://github.com/HikmetEmre45/portfolyo-2516016024" target="_blank" rel="noopener noreferrer" class="btn secondary" data-i18n="btn_github_inspect">
+              GitHub'da İncele →
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 04 — EĞİTİM & HEDEFLER -->
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="edu_eyebrow">04 — EĞİTİM & HEDEFLER</p>
+        <h2 data-i18n="edu_title">Öğrenmeye devam<br><span>ediyorum.</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span class="card-mini-tag" data-i18n="edu_card1_tag">EĞİTİM</span>
+          <h3 data-i18n="edu_card1_title">Manisa Celal Bayar Üniversitesi</h3>
+          <p data-i18n="edu_card1_sub">Büyük Veri Analistliği</p>
+          <strong class="tag-red">2025 — 2027</strong>
+        </div>
+
+        <div class="skill-card">
+          <span class="card-mini-tag" data-i18n="edu_card2_tag">DİL</span>
+          <h3 data-i18n="edu_card2_title">İngilizce</h3>
+          <p data-i18n="edu_card2_sub">Mesleki ve Teknik Terimler</p>
+          <strong class="tag-red">A2 / B1</strong>
+        </div>
+
+        <div class="skill-card">
+          <span class="card-mini-tag" data-i18n="edu_card3_tag">HEDEF</span>
+          <h3 data-i18n="edu_card3_title">Veri Analizi & Veri Bilimi</h3>
+          <p data-i18n="edu_card3_sub">Büyük Veri Projeleri ve Uygulamalar</p>
+          <strong class="tag-blue" data-i18n="edu_card3_badge">Staj & Kariyer</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 — İLETİŞİM -->
+    <section id="contact" class="contact section">
+      <div class="contact-box">
+        <p class="eyebrow" data-i18n="contact_eyebrow">05 — İLETİŞİM</p>
+        <h2 data-i18n="contact_title">Bir proje veya iş birliği mi var?<br><span>Konuşalım.</span></h2>
+        <p data-i18n="contact_desc">Büyük veri analizi, makine öğrenmesi projeleri veya fırsatlar için doğrudan bana ulaşabilirsin.</p>
+        <a class="btn primary" href="mailto:hikmetemre45@gmail.com" data-i18n="contact_btn">E-posta Gönder →</a>
+
+        <div class="socials">
+          <a href="https://github.com/HikmetEmre45" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/hikmet-emre-g%C3%BCltekin-6277593b9/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.instagram.com/h.emre_gltkn/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2026 Hikmet Emre Gültekin</span>
+    <span>Built with <b>data & curiosity.</b></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
